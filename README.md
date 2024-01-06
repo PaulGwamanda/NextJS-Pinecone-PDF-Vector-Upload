@@ -59,4 +59,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 |Screenshot|
 |---|
-| ![SS Chat](https://github.com/PaulGwamanda/ "ss nextjs chat ") | ![SS Chats](https://github.com/PaulGwamanda/NextJS-LM-Studio-Chatbot/blob/main/public/image/chat-window.png?raw=true "ss nextjs chat ") |
+| ![SS Chat](https://github.com/PaulGwamanda/NextJS-Pinecone-PDF-Vector-Upload/blob/main/assets/screenshot.png?raw=true "ss nextjs chat ") | ![SS Chats](https://github.com/PaulGwamanda/NextJS-LM-Studio-Chatbot/blob/main/public/image/chat-window.png?raw=true "ss nextjs chat ") |
