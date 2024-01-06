@@ -9,7 +9,7 @@ const pinecone = new Pinecone();
 const pineconeIndex = pinecone.Index(process.env.PINECONE_INDEX);
 
 export default async function handler(req, res) {
-    const pdfPath = './assets/outurance.pdf';
+    const pdfPath = './assets/llms.pdf';
 
     try {
         console.log(`Parsing PDF...`);
@@ -68,7 +68,7 @@ export default async function handler(req, res) {
 
             console.log(`Processing of Page ${i} completed successfully.`);
         }
-
+        console.log(`All pages have been successfully embedded.`);
         res.status(200).json({ success: true });
     } catch (error) {
         console.error(error);
@@ -99,9 +99,6 @@ async function extractTextFromPDF(filePath) {
         throw new Error(`Error parsing/extracting text from PDF: ${error.message}`);
     }
 }
-
-
-
 
 async function extractTextFromPage(parsedPdf, pageNum) {
     // console.log('parsedPdf.text:', parsedPdf.text);
